@@ -29,6 +29,9 @@ def get_sales_data():
         if validate_data(sales_data):
             print("Data is valid!")
             break
+    
+    return sales_data
+
 
 def validate_data(values):
     """
@@ -52,6 +55,7 @@ def validate_data(values):
 
 
 data = get_sales_data()
+print(data)
 
 
 
